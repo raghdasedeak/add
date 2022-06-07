@@ -1,0 +1,78 @@
+<html>
+<head>
+
+
+
+<link href="css/all.css" rel="stylesheet">
+<link href="css/bootstrap.min.css"rel="stylesheet">
+<link href="css/add.css"rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="w-75 mx-auto py-5 ">
+<label  for="pn" class=" py-2"> product name</label>
+<input type="text" id="pn"class="form-control">
+
+<label  for="pp" class=" py-2"> product pric</label>
+<input type="number" id="pp"class="form-control">
+
+<label  for="pc" class=" py-4"> product category</label>
+<input type="text" id="pc"class="form-control">
+<button class="p-3 bg-danger mt-3 fs-3 text-white" onclick ="add()">add</button>
+    </div>
+    
+
+    <input type="text" id="inputsearch" oninput="search(this.value)" class="w-50 form-control mx-auto" placeholder="search" >
+<table class="table w-75 mx-auto">
+<thead>
+   <th>index</th>
+   <th> product name</th>
+   <th> price</th>
+   <th> product category</th>
+   <th> delate</th>
+   <th>update</th>
+
+</thead>
+<tbody id="tablebody">
+
+</tbody>
+
+</body>
+
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/add.js"></script>
+</html>
